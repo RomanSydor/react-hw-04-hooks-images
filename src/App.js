@@ -16,7 +16,7 @@ const App = () => {
   const [keyword, setKeyword] = useState("");
   const [page, setPage] = useState(1);
   const [images, setImages] = useState([]);
-  const [isNewSearch, setIsNewSearch] = useState();
+  const [isNewSearch, setIsNewSearch] = useState(null);
   const [status, setStatus] = useState(null);
   const [error, setError] = useState(null);
 
